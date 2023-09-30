@@ -1,0 +1,391 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* NAVIGATION STARTS HERE!!! */
+
+.mainrapper {
+  background-color: rgba(224, 224, 224, 0.5);
+  height: fit-content;
+  padding: 0px 70px;
+}
+
+.nav {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.sig {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.sig svg {
+  height: 16px;
+  width: 16px;
+}
+
+.content {
+  font-size: 32px;
+  font-family: "Jost", sans-serif;
+}
+
+.dot {
+  color: rgb(134, 132, 131);
+  height: 10px;
+  width: 10px;
+}
+
+.search {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+  gap: 5px;
+}
+
+.search svg {
+  height: 16px;
+  width: 16px;
+}
+
+.food {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 80px;
+}
+
+.content {
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+}
+
+.cat svg {
+  height: 14px;
+  width: 14px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c1a59d;
+}
+
+.contact {
+  color: #c1a59d;
+}
+
+/* NAVIGATION ENDS HERE!!!!! */
+
+/* FORM STARTS HERE!!! */
+
+.form {
+  margin-top: 70px;
+  height: fit-content;
+  width: 95%;
+  padding: 50px 40px;
+  background-color: white;
+}
+
+.first {
+  display: flex;
+  gap: 40px;
+}
+
+.fi {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 50%;
+}
+
+.fi label {
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.fi input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+  outline: 2px solid rgba(224, 224, 224, 0.5);
+}
+
+.la {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 50%;
+}
+
+.la label {
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+}
+
+.la input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+  outline: 2px solid rgba(224, 224, 224, 0.5);
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.email label {
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+}
+
+.email input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+  outline: 2px solid rgba(224, 224, 224, 0.5);
+}
+
+.never {
+  color: gray;
+  font-size: 12.8px;
+  margin-top: 10px;
+}
+
+.mess {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.mess textarea {
+  outline: 2px solid rgba(224, 224, 224, 0.5);
+  border: none;
+  border-radius: 2px;
+  height: 180px;
+  width: 100%;
+}
+
+.mess label {
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+}
+
+.send {
+  margin-top: 20px;
+  background-color: #c1a57b;
+  padding: 10px;
+  color: white;
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+  border: none;
+  border-radius: 5px;
+}
+
+/* FORM ENDS HERE!!!!! */
+
+/* DOWM LINE STARTS HERE!!! */
+
+.line {
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  margin-top: 90px;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.Fb {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Fb svg {
+  color: grey;
+  height: 18px;
+  width: 18px;
+}
+
+.TEXT {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  width: fit-content;
+  margin: 30px auto;
+}
+
+.love {
+  font-size: 18px;
+  color: red;
+}
+
+.term {
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  padding-bottom: 50px;
+}
+
+.menuIcon {
+  display: none;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 480px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .mainrapper {
+    padding: 0px 10px;
+  }
+
+  .food {
+    display: none;
+  }
+
+  .form {
+    width: 90%;
+    padding: 30px 20px;
+    margin-top: 40px;
+  }
+
+  .first {
+    display: flex;
+  }
+
+  .fi label {
+    font-size: 16px;
+  }
+
+  .la label {
+    font-size: 16px;
+  }
+
+  .email label {
+    font-size: 16px;
+  }
+
+  .mess label {
+    font-size: 16px;
+  }
+
+  .send {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .sig {
+    display: none;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .menuIcon {
+    display: flex;
+  }
+
+  .TEXT p {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .term {
+    font-size: 12px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .mainrapper {
+    padding: 0px 40px;
+  }
+
+  .form {
+    width: 90%;
+    padding: 40px 35px;
+  }
+
+  .line {
+    margin-top: 40px;
+  }
+
+  .term {
+    padding-bottom: 90px;
+  }
+
+  .TEXT {
+    font-size: 14px;
+  }
+
+  .send {
+    padding: 15px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .mainrapper {
+    padding: 0px 40px;
+  }
+
+  .form {
+    width: 90%;
+    padding: 30px 40px;
+    margin-top: 80px;
+  }
+}

@@ -1,0 +1,942 @@
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Jost:ital,wght@0,300;1,300&family=Libre+Franklin:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Playfair+Display&family=Roboto:ital,wght@0,100;0,300;1,100;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Jost:ital,wght@0,300;0,400;1,300&family=Libre+Franklin:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Playfair+Display&family=Roboto:ital,wght@0,100;0,300;1,100;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Jost:ital,wght@0,300;0,400;1,300&family=Libre+Franklin:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Playfair+Display&family=Roboto:ital,wght@0,100;0,300;1,100;1,300;1,400&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgba(224, 224, 224, 0.5);
+  height: fit-content;
+}
+
+.mainrapper {
+  height: fit-content;
+  width: 90%;
+  margin: 0px auto;
+}
+
+/* Navigation */
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.nav {
+  width: 90%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sig {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.sig svg {
+  height: 16px;
+  width: 16px;
+}
+
+.content {
+  font-size: 32px;
+  font-family: "Jost", sans-serif;
+}
+
+.dot {
+  color: rgb(134, 132, 131);
+  height: 10px;
+  width: 10px;
+}
+
+.search {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+  gap: 5px;
+}
+
+.search svg {
+  height: 16px;
+  width: 16px;
+}
+
+.food {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  width: 90%;
+  padding-top: 50px;
+}
+
+.f {
+  color: #c4a57b;
+}
+
+.content {
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+}
+
+.cat svg {
+  height: 14px;
+  width: 14px;
+}
+
+/* Navigation Ends Here */
+
+/* Mainbody starts from here!!! */
+
+.mainbody {
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  padding-top: 60px;
+}
+
+.img {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background-image: url("../RESOURCES/jimmy-dean-Yn0l7uwBrpw-unsplash.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.larrow {
+  position: absolute;
+  background-color: white;
+  left: -25px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.larrow svg {
+  height: 16px;
+  width: 16px;
+}
+
+.rarrow {
+  position: absolute;
+  background-color: white;
+  right: -25px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rarrow svg {
+  height: 16px;
+  width: 16px;
+}
+
+.rect {
+  position: absolute;
+  background-color: white;
+  height: fit-content;
+  width: fit-content;
+  padding: 30px 45px;
+  border-radius: 1px;
+  bottom: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.fb {
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+  background-color: rgba(224, 224, 224, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fb svg {
+  height: 16px;
+  width: 16px;
+}
+
+.text {
+  font-size: 32px;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+.fo {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  color: #c4a57b;
+  margin-top: 25px;
+}
+
+.sfar {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  padding-top: 10px;
+}
+
+.date {
+  color: rgb(187, 187, 187);
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.date svg {
+  height: 16px;
+  width: 16px;
+}
+
+.tdot {
+  color: rgb(134, 132, 131);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  padding: 15px 0px;
+}
+
+.tdot svg {
+  height: 24px;
+  width: 24px;
+}
+
+.cdot {
+  color: rgb(58, 33, 24);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Maindody Ends Here */
+
+.today-wrapper {
+  width: fit-content;
+}
+
+.rec {
+  height: 10px;
+  width: 100%;
+  background-color: #c1a57b;
+  margin-top: -10px;
+}
+
+.today {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+}
+
+.msingrid {
+  display: grid;
+  grid-template-columns: 70% auto;
+  gap: 50px;
+  margin-top: 25px;
+}
+
+.grid {
+  gap: 60px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.im {
+  height: 280px;
+  width: 370px;
+  background-image: url("../RESOURCES/jimmy-dean-Yn0l7uwBrpw-unsplash.jpg");
+  background-size: cover;
+}
+
+.foo {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  color: #c4a57b;
+  margin-top: 10px;
+}
+
+.farr {
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  margin-top: 5px;
+}
+
+.Date {
+  color: rgb(187, 187, 187);
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  margin-top: 10px;
+}
+
+.Date svg {
+  height: 16px;
+  width: 16px;
+}
+
+.country {
+  font-size: 16px;
+  margin-top: 10px;
+  font-family: "Jost", sans-serif;
+}
+
+.imm {
+  height: 280px;
+  width: 370px;
+  background-image: url("../RESOURCES/christina-wocintechchat-com-VpcgTEKerEQ-unsplash.jpg");
+  background-size: cover;
+}
+
+.scard {
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.image {
+  background-image: url("../RESOURCES/jimmy-dean-Yn0l7uwBrpw-unsplash.jpg");
+  background-size: cover;
+  height: 180px;
+  width: 100%;
+  border-radius: 2px;
+  margin: 0px 15px;
+}
+
+.sub {
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  padding-top: 5px;
+}
+
+.fa {
+  font-size: 18px;
+  font-family: "Jost", sans-serif;
+  margin-top: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.email {
+  width: 100%;
+}
+
+.email input {
+  height: 35px;
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 3px;
+  border: gray;
+  box-shadow: 0.5px 0.5px 1px grey;
+  outline: none;
+}
+
+.subs {
+  background-color: #c1a57b;
+  color: white;
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  border: none;
+  border-radius: 3px;
+  height: 35px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.mainrow {
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.IM {
+  background-image: url("../RESOURCES/christina-wocintechchat-com-VpcgTEKerEQ-unsplash.jpg");
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+}
+
+.FOOD {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  color: #c4a57b;
+}
+
+.FAR {
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  margin-top: 5px;
+}
+
+.DATE {
+  color: rgb(187, 187, 187);
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  margin-top: 8px;
+}
+
+.DATE svg {
+  height: 16px;
+  width: 16px;
+}
+
+.SFAR {
+  font-size: 16px;
+  margin-top: 20px;
+  font-family: "Jost", sans-serif;
+}
+
+.IMA {
+  background-image: url("../RESOURCES/jimmy-dean-Yn0l7uwBrpw-unsplash.jpg");
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+}
+
+.IMg {
+  background-image: url("../RESOURCES/milan-popovic-FHvpa4-Fpu8-unsplash.jpg");
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+}
+
+.life {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+  margin-top: 100px;
+}
+
+.side {
+  display: flex;
+  gap: 10px;
+}
+
+.frow {
+  width: 60%;
+}
+
+.Lifestyle {
+  display: flex;
+  margin-top: 20px;
+  gap: 30px;
+}
+
+.FD {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+  width: fit-content;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.recc {
+  height: 10px;
+  width: 100%;
+  background-color: #c1a57b;
+  margin-top: -10px;
+}
+
+.MAINGRID {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin-top: 30px;
+}
+
+.Grid {
+  gap: 50px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.rrow {
+  width: 90%;
+  margin-top: 15px;
+}
+
+.iM {
+  height: 200px;
+  width: 250px;
+  background-image: url("../RESOURCES/jimmy-dean-Yn0l7uwBrpw-unsplash.jpg");
+  background-size: cover;
+}
+
+.twoim {
+  height: 200px;
+  width: 250px;
+  background-image: url("../RESOURCES/christina-wocintechchat-com-VpcgTEKerEQ-unsplash.jpg");
+  background-size: cover;
+}
+
+.Tim {
+  height: 200px;
+  width: 250px;
+  background-image: url("../RESOURCES/milan-popovic-FHvpa4-Fpu8-unsplash.jpg");
+  background-size: cover;
+}
+
+.line {
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  margin-top: 90px;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.Fb {
+  height: 45px;
+  width: 45px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Fb svg {
+  color: grey;
+  height: 14px;
+  width: 14px;
+}
+
+.TEXT {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  width: fit-content;
+  margin: 30px auto;
+}
+
+.love {
+  font-size: 18px;
+  color: red;
+}
+
+.term {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+.menuIcon {
+  display: none;
+}
+
+/* ANKER!!! */
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.food a:hover {
+  color: #c4a57b;
+}
+
+/* ALL ENDS HERE!!!!! */
+
+/* MEDIA QUERY STARTS HERE*/
+
+@media (max-width: 480px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .mainrapper {
+    padding: 0px 10px;
+  }
+
+  .menuIcon {
+    display: flex;
+  }
+
+  .sig {
+    display: flex;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .food {
+    display: none;
+  }
+
+  .mainbody {
+    margin: 0px 0px;
+    padding-top: 15px;
+  }
+
+  .img {
+    height: 700px;
+    width: 100%;
+  }
+
+  .rect {
+    height: 350px;
+    width: 70%;
+    padding: 30px 45px;
+    border-radius: 1px;
+    bottom: 15px;
+  }
+
+  .larrow {
+    display: none;
+  }
+
+  .rarrow {
+    display: none;
+  }
+
+  .text {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .msingrid {
+    grid-template-columns: auto;
+    margin-top: 0px;
+  }
+
+  .grid {
+    grid-template-columns: auto;
+  }
+
+  .card {
+    margin-top: 35px;
+  }
+
+  .im {
+    height: 300px;
+    width: 100%;
+  }
+
+  .imm {
+    height: 300px;
+    width: 100%;
+  }
+
+  .scard {
+    width: 90%;
+    height: 450px;
+    padding: 12px;
+  }
+
+  .image {
+    height: 250px;
+    width: 95%;
+    margin-top: 0px;
+  }
+
+  .sub {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  .subs {
+    height: 40px;
+  }
+
+  .email input {
+    height: 40px;
+  }
+
+  .fa {
+    font-size: 16px;
+  }
+
+  .IM {
+    height: 130px;
+    width: 100%;
+  }
+
+  .IMA {
+    height: 130px;
+    width: 100%;
+  }
+
+  .IMg {
+    height: 130px;
+    width: 100%;
+  }
+
+  .FOOD {
+    font-size: 18px;
+  }
+
+  .SFAR {
+    font-size: 17px;
+  }
+
+  .row {
+    margin-top: 10px;
+  }
+
+  .mainrow {
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+  .side {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .i {
+    width: 70%;
+  }
+
+  .frow {
+    width: 100%;
+  }
+
+  .Lifestyle {
+    gap: 30px;
+  }
+
+  .life {
+    font-size: 20px;
+  }
+
+  .TEXT p {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .MAINGRID {
+    grid-template-columns: 100%;
+    gap: 30px;
+  }
+
+  .Grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .rrow {
+    width: 100%;
+  }
+
+  .iM {
+    height: 300px;
+    width: 100%;
+  }
+
+  .twoim {
+    height: 300px;
+    width: 100%;
+  }
+
+  .Tim {
+    height: 300px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .mainrapper {
+    padding: 0px 10px;
+  }
+
+  .larrow {
+    left: -5px;
+  }
+
+  .rarrow {
+    right: -5px;
+  }
+
+  .img {
+    height: 800px;
+    width: 100%;
+  }
+
+  .rect {
+    height: 300px;
+    width: 80%;
+    padding: 20px 45px;
+    border-radius: 1px;
+    bottom: 10px;
+  }
+
+  .msingrid {
+    display: grid;
+    grid-template-columns: 70% auto;
+    width: 100%;
+  }
+
+  .grid {
+    gap: 50px;
+  }
+
+  .im {
+    height: 200px;
+    width: 100%;
+  }
+
+  .imm {
+    height: 200px;
+    width: 100%;
+  }
+
+  .sub {
+    text-align: center;
+  }
+
+  .fa {
+    font-size: 16px;
+  }
+
+  .scard {
+    padding: 20px;
+  }
+
+  .image {
+    height: 130px;
+    width: 100%;
+    border-radius: 2px;
+    margin: 0px 15px;
+  }
+
+  .row {
+    width: 50%;
+  }
+
+  .side {
+    gap: 20px;
+  }
+
+  .IM {
+    height: 180px;
+    width: 250px;
+  }
+
+  .IMA {
+    height: 180px;
+    width: 250px;
+  }
+
+  .IMg {
+    height: 180px;
+    width: 250px;
+  }
+
+  .MAINGRID {
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+  }
+
+  .Grid {
+    gap: 20px;
+    grid-template-columns: auto auto;
+  }
+
+  .iM {
+    height: 200px;
+    width: 95%;
+  }
+
+  .twoim {
+    height: 200px;
+    width: 95%;
+  }
+
+  .Tim {
+    height: 200px;
+    width: 95%;
+  }
+
+  .FAR {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1024px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .mainrapper {
+    padding: 0px 40px;
+  }
+
+  .MAINGRID {
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+  }
+
+  .iM {
+    height: 180px;
+    width: 200px;
+  }
+
+  .twoim {
+    height: 180px;
+    width: 200px;
+  }
+
+  .Tim {
+    height: 180px;
+    width: 200px;
+  }
+}
